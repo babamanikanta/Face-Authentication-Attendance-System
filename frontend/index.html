@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Face Attendance</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Face Attendance System</h2>
+
+      <video id="video" width="350" autoplay></video>
+
+      <div class="card">
+        <input type="text" id="empId" placeholder="Employee ID" />
+        <input type="text" id="name" placeholder="Name" />
+        <input type="password" id="password" placeholder="Password" />
+
+        <button class="green" onclick="register()">Register</button>
+      </div>
+
+      <div class="card">
+        <button class="green" onclick="send('checkin')">Check In</button>
+        <button class="red" onclick="send('checkout')">Check Out</button>
+      </div>
+
+      <p id="status"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
