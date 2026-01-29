@@ -91,7 +91,7 @@ Face-Authentication-Attendance-System/
 
 ### Backend Setup
 
-````bash
+```bash
 cd backend
 python -m venv venv
 venv\Scripts\activate
@@ -168,14 +168,5 @@ AI/ML Internship Assignment
 Lovely Professional University
 
 
----
 
-## ✅ Finish the merge (VERY IMPORTANT)
-
-Now run these commands **in order**:
-
-```bash
-git add README.md
-git commit -m "Resolve README merge conflict"
-git push -u origin main
-````
+```
